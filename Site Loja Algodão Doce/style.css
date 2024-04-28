@@ -1,0 +1,147 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    background-color: rgb(253, 161, 176);
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
+    
+}
+header img {
+border-radius: 50%;
+
+}
+
+a{
+    margin: 27px;
+    font-size: 27px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family:cursive;
+    transition: 0.4s;
+}
+
+a:hover{
+    background: pink;
+    border-radius: 5px;
+    
+}
+
+#inicio {
+    color: blue;
+    display: flex;
+    padding-left: 25px;
+}
+.home {
+    display: flex;
+    border-radius: 1px solid red;
+}
+.home img {
+    width: 400px;
+    border-radius: 15%;
+
+}
+
+.texto_1 {
+    padding-left: 180px;
+}
+.texto_1 h2 {
+    color: rgb(177, 91, 105);
+    font-size: 31px;
+    font-family: cursive;
+}
+.texto_1 p {
+    color:  rgb(138, 67, 79);
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.content {
+    height: 650px;
+    width: 1000px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    left: 252px;
+}
+
+.navegacao{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.barra {
+    width: 70px;
+    height: 17px;
+    border: 2px solid #fff;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.barra:hover {
+    background: #bbbbbb;
+}
+input{
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 600%;
+    height: 100%;
+}
+
+.slide {
+    width: 17%;
+    transition: 0,6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -17%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -34%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -51%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -68%;
+}
+
+#slide6:checked ~ .s1 {
+    margin-left: -85%;
+}
